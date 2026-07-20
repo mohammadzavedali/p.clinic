@@ -229,7 +229,7 @@
             <a href="male-doctor-profile.html" class="doctor-card" onclick="handleCardClick(event, 'Dr. A. Kamal')">
                 <div class="doctor-image-wrapper">
                     <!-- Placeholder Image (Replace with original photo) -->
-                    <img src="dr-a-kamal.jpeg" alt="Dr. A. Kamal">
+                    <img src="Photos/dr-a-kamal.jpeg" alt="Dr. A. Kamal">
                 </div>
                 <div class="doctor-info">
                     <h3>Dr. A. Kamal</h3>
@@ -244,7 +244,7 @@
             <a href="female-doctor-profile.html" class="doctor-card" onclick="handleCardClick(event, 'Dr. T. Haque')">
                 <div class="doctor-image-wrapper">
                     <!-- Placeholder Image (Replace with original photo) -->
-                    <img src="dr-t-haque.jpeg" alt="Dr. T. Haque">
+                    <img src="Photos/dr-t-haque.jpeg" alt="Dr. T. Haque">
                 </div>
                 <div class="doctor-info">
                     <h3>Dr. T. Haque</h3>
@@ -274,13 +274,8 @@
             // Prevent triggering if the book button is clicked
             if (event.target.closest('.book-btn')) return;
             
-            // For demo purposes, preventing default navigation and showing an alert
-            // In the real website, remove event.preventDefault() to allow navigation
-            event.preventDefault(); 
-            alert("Opening full profile page for " + doctorName + "...");
-            
-            // In the real website, this line will redirect to the profile page:
-            // window.location.href = event.currentTarget.href;
+            // event.preventDefault(); 
+            // alert("Opening full profile page for " + doctorName + "...");
         }
 
         // Function: When the "Book & Pay Online" button is clicked
@@ -296,3 +291,5 @@
 
 </body>
 </html>
+
+
